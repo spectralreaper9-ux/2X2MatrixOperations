@@ -11,8 +11,10 @@
 TwoXTwoMatrix::TwoXTwoMatrix(std::string  name, int inputMatrix[2][2])
     : name(std::move(name))
 {
-    for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < 2; j++) {
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
             matrix[i][j] = inputMatrix[i][j];
         }
     }
