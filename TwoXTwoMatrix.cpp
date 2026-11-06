@@ -7,9 +7,6 @@
 #include <iostream>
 #include <utility>
 
-TwoXTwoMatrix::TwoXTwoMatrix(std::string  name)
-    : name(std::move(name))
-{}
 
 TwoXTwoMatrix::TwoXTwoMatrix(std::string  name, int inputMatrix[2][2])
     : name(std::move(name))
@@ -89,4 +86,3 @@ void TwoXTwoMatrix::print() const
 
     std::cout << std::endl;
 }
-

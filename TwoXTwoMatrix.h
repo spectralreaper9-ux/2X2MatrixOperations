@@ -15,7 +15,6 @@ class TwoXTwoMatrix
 public:
 
     TwoXTwoMatrix() = default;
-    TwoXTwoMatrix(std::string  name);
     explicit TwoXTwoMatrix(std::string  name, int inputMatrix[2][2]);
 
     TwoXTwoMatrix operator + (const TwoXTwoMatrix& rhsMatrix) const;
